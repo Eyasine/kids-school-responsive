@@ -1,1 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shired style */
+.display-flex{
+    display: flex;
+}
+.web-width{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.btn{
+    width: 197px;
+    height: 50px;
+    background-color: #FEA301;
+    color: #ffffff;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.25rem;
+    
+
+}
+
+/* header style */
+.navber{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-img{
+    width: 62px;
+    height: 62px;
+    margin: auto 0;
+}
+.brand-text{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 11px;
+}
+.brand-items{
+    list-style: none;
+    margin-right: 32px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.brand-items a{
+    text-decoration: none;
+}
+.brand-color1{
+    color: #FEA301;
+}
+.brand-color2{
+    color: #01ACFD;
+}
+.brand-color3{
+    color: #05D4DF;
+}
+.brand-color4{
+    color: #5D58EF;
+}
+.ham-icon{
+        display: none;
+    }
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .brand-img{
+        width: 46px;
+        height: 46px;
+    }
+    .brand-text,
+    .brand-link,
+    .btn{
+        display: none;
+    }
+
+    .ham-icon{
+        display: block;
+    }
+    
+}
+
+
