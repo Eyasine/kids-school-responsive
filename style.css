@@ -338,9 +338,45 @@
         margin-bottom: 80px;
     }
 
+    /* footer */
+    .footer-bg{
+        background-color: #01ACFD;
+    }
+    .footer-info{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 90px;
+        color: #ffffff;
+        padding: 120px;
+    }
+    .footer-logo{
+        align-items: center;
+        margin-right: 50px;
+    }
+    .footer-img{
+        width: 82px;
+        height: 81px;
+    }
+    .footer-title{
+        font-size: 1.8rem;
+        font-weight: 800;
+        margin-top: 13px;
+    }
+    .footer-description{
+        line-height: 22px;
+    }
 
-
-
+    .footer-heading{
+        font-size: 1.3rem;
+    }
+    .list-item{
+        list-style: none;
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+    .list-items{
+        margin-left: -30px;
+    }
 
 
 
@@ -397,7 +433,8 @@
         display: inline-block;
     }
 
-    .curriculum-contant{
+    .curriculum-contant,
+    .footer-info{
         grid-template-columns: repeat(1,1fr);
     }
 
